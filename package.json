@@ -8,7 +8,7 @@
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
-    "start": "node .output/server/index.mjs",
+    "start": "node .output/public",
     "git": "npm run build && git add . && git commit -m \"release\" && git push origin main"
   },
   "dependencies": {
