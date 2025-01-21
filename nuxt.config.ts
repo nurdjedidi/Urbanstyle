@@ -4,7 +4,7 @@ export default defineNuxtConfig({
   compatibilityDate: '2024-11-01',
   devtools: { enabled: true },
   app: {
-    baseURL: '/urbanstyle', 
+    baseURL: 'https://portfolionurdjedd.com/urbanstyle', 
   },
   plugins: ['~/plugins/cart.js'],
   build: {
