@@ -3,9 +3,6 @@ import vuetify, { transformAssetUrls } from 'vite-plugin-vuetify'
 export default defineNuxtConfig({
   compatibilityDate: '2024-11-01',
   devtools: { enabled: true },
-  app: {
-    baseURL: 'https://portfolionurdjedd.com/urbanstyle', 
-  },
   plugins: ['~/plugins/cart.js'],
   build: {
     transpile: ['vuetify'],
